@@ -71,7 +71,13 @@ $ python
 
 (Ctrl-d to exit Python)
 
-**Step 4:** Installing tensorflow
+**Step 4:** Installing sklearn
+
+```
+$ pip install --upgrade sklearn
+```
+
+**Step 5:** Installing tensorflow
 
 ```
 $ conda install -c conda-forge tensorflow
@@ -80,8 +86,3 @@ $ conda install -c conda-forge tensorflow
 Errors:
 If you're getting the error tensorflow.python.framework.errors.InvalidArgumentError: Placeholder:0 is both fed and fetched, you're running an older version of TensorFlow. Uninstall TensorFlow, and reinstall it using the instructions above. For more solutions, check out the <A HREF="https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html#common-problems" target="_blank">Common Problems</A> section.
 
-**Step 4:*** Installing sklearn
-
-```
-$ pip install --upgrade sklearn
-```
